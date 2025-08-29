@@ -7,11 +7,13 @@ body{
     width: 145px;
     height: 32px;
     padding-left: 30px;
+    
 }
 .header-div{
     display: flex;
     gap: 100px;
     padding-top: 20px;
+    justify-content:center ;
 }
 /* .product-div{
     padding-right: 10px;
@@ -40,6 +42,9 @@ body{
     border-radius: 5px;
     margin-right: 50px;
 }
+.button-div{
+    gap: 10px;
+}
 .header-para{
     font-family: "Manrope", sans-serif;
     font-size: 54px;
@@ -52,6 +57,7 @@ body{
    flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-top: 118px;
   
 }
@@ -157,7 +163,14 @@ body{
     font-size: 40px;
     width: 876px;
     padding-left: 103px;
+    padding-top: 100px;
     
+}
+.about-div{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 .real-div{
     display: flex;
