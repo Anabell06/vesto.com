@@ -676,3 +676,8 @@ a:hover {
     padding-top: 155px;
     max-width: 743px;
 }
+@media (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+}
